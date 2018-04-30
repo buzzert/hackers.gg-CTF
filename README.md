@@ -13,5 +13,5 @@ https://hackers.gg/
     - Do the Robot
     - User Agent
     - [Captcha 2](captcha2/)
-
+    - [Temporary Note](temporary_note/)
 
