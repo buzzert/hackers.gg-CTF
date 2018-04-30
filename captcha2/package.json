@@ -1,0 +1,17 @@
+{
+    "name": "captcha2",
+    "version": "1.0.0",
+    "description": "Solver for https://hackers.gg/challenges/web/intermediate5/. SPOILER WARNING!",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "buzzert <buzzert@buzzert.net>",
+    "license": "ISC",
+    "dependencies": {
+        "domparser": "^0.1.1",
+        "http": "0.0.0",
+        "xmldom": "^0.1.27"
+    }
+}
