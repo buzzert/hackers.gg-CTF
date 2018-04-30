@@ -59,9 +59,8 @@ up going down a very interesting rabbit hole of understanding how PHP serializes
    but ended up still being very limited in the fact that the server appended `.php`
    to the included file. The blog post had one technique that seemed very interesting:
    ```
-    Using PHP stream php://filter:
-?file=php://filter/convert.base64-encode/resource=index.php
-(lets you read PHP source because it wont get evaluated in base64. More details here and here)
+    Using PHP stream php://filter:?file=php://filter/convert.base64-encode/resource=index.php
+    (lets you read PHP source because it wont get evaluated in base64. More details here and here)
    ```
 
 9. I tried using this trick to see if I could trick the server into base64 encoding
